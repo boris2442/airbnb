@@ -14,9 +14,18 @@
         background-color: transparent;
         transition: background-color 0.2s ease-in-out;
     }
-    .swiper-button-next,
-    .swiper-button-prev{
-        font-size: 20px;
+    .swiper-button-next::after,
+    .swiper-button-prev::after{
+        display: flex;
+      
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    
+        }
+        
 
-}
 }

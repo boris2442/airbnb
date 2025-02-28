@@ -635,14 +635,6 @@ video {
   height: 9vh;
 }
 
-.max-h-\[400px\] {
-  max-height: 400px;
-}
-
-.max-h-\[350px\] {
-  max-height: 350px;
-}
-
 .max-h-\[380px\] {
   max-height: 380px;
 }
@@ -655,24 +647,16 @@ video {
   width: 100%;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
 .w-\[400px\] {
   width: 400px;
 }
 
 .w-\[60px\] {
   width: 60px;
-}
-
-.w-\[80vw\] {
-  width: 80vw;
-}
-
-.w-\[350px\] {
-  width: 350px;
-}
-
-.w-\[60vw\] {
-  width: 60vw;
 }
 
 .w-\[70vw\] {
@@ -731,8 +715,8 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-\[100px\] {
-  border-radius: 100px;
+.rounded-\[10px\] {
+  border-radius: 10px;
 }
 
 .rounded-\[50px\] {
@@ -836,10 +820,6 @@ video {
   padding-top: 40px;
 }
 
-.pl-\[10px\] {
-  padding-left: 10px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -902,9 +882,15 @@ input[type='checkbox']{
   transition: background-color 0.2s ease-in-out;
 }
 
-.swiper-button-next,
-    .swiper-button-prev{
-  font-size: 20px;
+.swiper-button-next::after,
+    .swiper-button-prev::after{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
