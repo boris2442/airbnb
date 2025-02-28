@@ -655,6 +655,14 @@ video {
   height: 300px;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
 .min-h-\[150px\] {
   min-height: 150px;
 }
@@ -677,6 +685,14 @@ video {
 
 .w-\[300px\] {
   width: 300px;
+}
+
+.w-\[25\%\] {
+  width: 25%;
+}
+
+.w-\[400px\] {
+  width: 400px;
 }
 
 .cursor-pointer {
