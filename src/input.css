@@ -14,4 +14,9 @@
         background-color: transparent;
         transition: background-color 0.2s ease-in-out;
     }
+    .swiper-button-next,
+    .swiper-button-prev{
+        font-size: 20px;
+
+}
 }
