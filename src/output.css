@@ -635,8 +635,8 @@ video {
   height: 2px;
 }
 
-.h-\[500px\] {
-  height: 500px;
+.h-\[50px\] {
+  height: 50px;
 }
 
 .h-\[60px\] {
@@ -786,6 +786,11 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
+.bg-\[\#272727\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 39 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#333\] {
   --tw-bg-opacity: 1;
   background-color: rgb(51 51 51 / var(--tw-bg-opacity, 1));
@@ -794,11 +799,6 @@ video {
 .bg-\[\#F7F7F7\] {
   --tw-bg-opacity: 1;
   background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
 }
 
 .bg-red-600 {
@@ -816,17 +816,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#272727\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(39 39 39 / var(--tw-bg-opacity, 1));
-}
-
 .p-\[10px\] {
   padding: 10px;
+}
+
+.p-\[5px\] {
+  padding: 5px;
 }
 
 .p-\[7px\] {
@@ -879,6 +874,10 @@ video {
   line-height: 1;
 }
 
+.text-\[15px\] {
+  font-size: 15px;
+}
+
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -889,10 +888,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.leading-\[20px\] {
-  line-height: 20px;
 }
 
 .leading-\[30px\] {
@@ -907,6 +902,11 @@ video {
 .text-\[\#333\] {
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#f1f1f1\] {
+  --tw-text-opacity: 1;
+  color: rgb(241 241 241 / var(--tw-text-opacity, 1));
 }
 
 .text-red-500 {
@@ -933,6 +933,7 @@ video {
 
 body{
   font-family: "Poppins", "Parkinsans";
+  overflow-x:hidden;
 }
 
 input[type='checkbox']{

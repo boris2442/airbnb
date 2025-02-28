@@ -7,6 +7,7 @@
 @layer utilities{
     body{
         font-family: "Poppins", "Parkinsans";
+        overflow-x:hidden; ;
     }
     input[type='checkbox']{
      
