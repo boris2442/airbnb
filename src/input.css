@@ -3,3 +3,15 @@
 @tailwind utilities;
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
+
+@layer utilities{
+    input[type='checkbox']{
+     
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+        border: 2px solid currentColor;
+        background-color: transparent;
+        transition: background-color 0.2s ease-in-out;
+    }
+}
