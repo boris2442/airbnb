@@ -19,3 +19,13 @@ const swiper = new Swiper('.swiper', {
     //   el: '.swiper-scrollbar',
     // },
   });
+
+
+  const sr=ScrollReveal({
+    origin:'top',
+    distance:'30px',
+    reset:true,
+    duration:500
+  })
+
+  sr.reveal('.scrol', {interval:200})
